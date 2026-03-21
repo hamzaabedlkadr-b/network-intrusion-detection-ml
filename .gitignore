@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+KDDTrain+.txt
+KDDTest+.txt
+
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+
+# Old exports / submission leftovers
+ML_assignment_1_Abdulkader.zip
+ML_assignment_1_Abdulkader.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
